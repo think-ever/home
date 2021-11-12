@@ -7,7 +7,8 @@
   */
 
   //Replace akashgupta2134@gmail.com  with your real receiving email address
-  $receiving_email_address = 'akashgupta2134@gmail.com';
+print_r('hello'); die();
+  $receiving_email_address = 'info.thinkever@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
